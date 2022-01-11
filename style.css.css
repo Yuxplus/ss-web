@@ -1,0 +1,107 @@
+body{width: auto;}
+a {  text-decoration: none; color: inherit;}
+p {line-height: 1.5em;}
+
+html,body{width: 100vw;
+height: 100vh;}
+body {
+
+    /* Background color*/
+    background-color: #FFFFFF;
+background-image: linear-gradient(180deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100%);
+
+    background-repeat: no-repeat; background-size: cover;
+}
+
+
+
+/* Fonts */
+
+header{display: inline; width: auto; height: 100px;}
+
+#banner{background-image: url(./img/topimage.jpg);
+    width: 375px;
+    height: 150px;
+background-size: contain;
+background-repeat: no-repeat;
+margin: 0 auto;
+position: relative;
+}
+
+#lazer{
+    background-image: url(./img/lazer.jpg);
+    width: 600px;
+    height: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    position: absolute;
+}
+
+#lazer > div { background: rgba(0,0,0,0.3); color: rgb(255, 0, 0); height: 110px; 
+    width: 110px; padding:20px; text-align: bottom; position:absolute; bottom:0; border: 1px solid black; display: flex;}
+#lazer h1 { font-size: 38px; font-weight:normal; padding-top: 50px;padding-left: 10px;}
+
+#lazer #yazıcı { background: rgba(0,0,0,0.3); color: rgb(255, 0, 0); height: 110px; 
+    width: 110px; padding:20px; text-align: bottom; position:absolute; bottom:0; border: 1px solid black; display: flex; margin-left: 160px;}
+
+#lazer #yazıcı {
+    background-image: url(./img/yazıcı.jpg);
+    width: 110px;
+    height: 110px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    margin-left: 160px;
+    position: absolute;
+}
+
+#links a { margin: 0 1em;
+    line-height: 1.5em;
+    padding: 10px ; 
+    justify-content: space-between;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.3em;
+    
+}
+
+
+
+#links{ text-align: center;
+margin: 20px 25px;
+
+display: flex;
+justify-content: center;
+}
+
+/* Middle Content */
+/*#panelContainer { background: #a9c8af;}*/
+#panel { width: 800px; height: 450px; margin:0 auto; background: url(img/logo.jpeg);  position: relative; background-repeat: no-repeat; background-size: cover;}
+#panel > div { background: rgba(0,0,0,0.3); color: rgb(206, 187, 187); height: 180px; 
+               width: 760px; padding:20px; text-align: center; position:absolute; bottom:0;}
+#panel h1 { font-size: 68px; font-weight:normal; padding-bottom: 5px;}
+#panel p { font-size:20px; letter-spacing: 5px;}
+/*.button { width:100px; background: #000; border:2px solid #FFF; padding:10px 15px; margin: 20px auto; }*/
+
+
+.twoColumn { display: flex; justify-content: space-between; width:800px; margin:0 auto;}  /* to display left and right column */
+.twoColumn #left { width: 375px;}
+.twoColumn h1 { font-size:22px; color: #444; border-top: 2px solid black; font-weight: normal; margin-top:20px; padding-top:10px; padding-bottom: 15px;}
+.twoColumn #left p { width: 300px;  }
+
+#left > div {
+   display: flex;
+   margin-top: 15px;
+   justify-content: space-between;
+}
+
+#infos h1 { font-size:35px; color: rgb(0, 0, 0); font-weight: normal; margin-top:20px; padding-top:10px; padding-bottom: 25px;}
+#infos h4{font-size: 18px; color: rgb(39, 37, 37); font-weight: normal;
+}
+
+.twoColumn #right { width: 375px;}
+#rightPanel table { margin: 20px auto ; border-spacing: 0px; }
+#rightPanel td { width: 350px; height: 30px; border-bottom: 1px dashed gray ; text-align: center;}
+#rightPanel .first td { border-top:2px solid black; border-bottom: 2px solid black; font-weight: bold; }
+#total {  text-align: center; background: #ddd ; }
+#rightPanel div { margin-top: 40px; text-align: center; }
